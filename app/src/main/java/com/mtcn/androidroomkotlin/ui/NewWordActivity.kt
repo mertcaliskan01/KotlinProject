@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Button
 import android.widget.EditText
+import androidx.appcompat.widget.AppCompatButton
 import com.mtcn.androidroomkotlin.R
 
 class NewWordActivity : AppCompatActivity() {
@@ -18,7 +19,7 @@ class NewWordActivity : AppCompatActivity() {
         setContentView(R.layout.activity_new_word)
         editWordView = findViewById(R.id.edit_word)
 
-        val button = findViewById<Button>(R.id.button_save)
+        val button = findViewById<AppCompatButton>(R.id.button_save)
         button.setOnClickListener {
             val replyIntent = Intent()
             if (TextUtils.isEmpty(editWordView.text)) {

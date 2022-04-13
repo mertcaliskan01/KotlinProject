@@ -8,45 +8,106 @@
     android:padding="@dimen/normal_padding"
     tools:context=".ui.ui.home.HomeFragment">
 
-    <TextView
-        android:id="@+id/header_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/title_shape"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview"
+<androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_notes"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:padding="@dimen/big_padding"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/header_title"
-        tools:listitem="@layout/recyclerview_item" />
-
-
-
+        android:layout_marginEnd="@dimen/big_padding"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:background="@drawable/button_shape"
+        android:contentDescription="@string/add_word"
+        android:padding="@dimen/very_big_padding"
+        android:shadowColor="#A8A8A8"
+        android:text="@string/notes"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/btn_draw"
+        app:layout_constraintEnd_toStartOf="@+id/btn_new_note"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/fab"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_width="150dp"
-        android:text="@string/add_word"
-        android:shadowColor="#A8A8A8"
-        android:textColor="#FFFFFF"
-        android:layout_height="50dp"
-        android:layout_margin="8dp"
-        android:contentDescription="@string/add_word"
+        android:id="@+id/btn_new_note"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/big_padding"
+        android:layout_marginBottom="@dimen/big_padding"
         android:background="@drawable/button_shape"
-        />
+        android:contentDescription="@string/add_word"
+        android:padding="@dimen/very_big_padding"
+        android:shadowColor="#A8A8A8"
+        android:text="@string/add_word"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/btn_take_picture"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_notes"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_draw"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/big_padding"
+        android:layout_marginEnd="@dimen/big_padding"
+        android:background="@drawable/button_shape"
+        android:contentDescription="@string/add_word"
+        android:padding="@dimen/very_big_padding"
+        android:shadowColor="#A8A8A8"
+        android:text="@string/draw"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/btn_take_picture"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_notes" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_take_picture"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/big_padding"
+        android:layout_marginTop="@dimen/big_padding"
+        android:background="@drawable/button_shape"
+        android:contentDescription="@string/add_word"
+        android:padding="@dimen/very_big_padding"
+        android:shadowColor="#A8A8A8"
+        android:text="@string/take_picture"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_draw"
+        app:layout_constraintTop_toBottomOf="@+id/btn_new_note" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9"  />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
 </androidx.constraintlayout.widget.ConstraintLayout>
