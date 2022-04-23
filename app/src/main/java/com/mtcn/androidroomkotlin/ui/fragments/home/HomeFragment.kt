@@ -1,17 +1,13 @@
-package com.mtcn.androidroomkotlin.ui.ui.home
+package com.mtcn.androidroomkotlin.ui.fragments.home
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import androidx.fragment.app.Fragment
-import com.mtcn.androidroomkotlin.R
 import com.mtcn.androidroomkotlin.databinding.FragmentHomeBinding
-import com.mtcn.androidroomkotlin.databinding.FragmentNotesBinding
 import com.mtcn.androidroomkotlin.ui.DrawOnBitmapActivity
-import com.mtcn.androidroomkotlin.ui.NewWordActivity
 
 class HomeFragment : Fragment() {
 

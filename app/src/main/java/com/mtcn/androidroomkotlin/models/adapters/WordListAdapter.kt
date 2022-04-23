@@ -1,4 +1,4 @@
-package com.mtcn.androidroomkotlin.adapters
+package com.mtcn.androidroomkotlin.models.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.mtcn.androidroomkotlin.R
-import com.mtcn.androidroomkotlin.model.Word
+import com.mtcn.androidroomkotlin.models.model.Word
 
 class WordListAdapter : ListAdapter<Word, WordListAdapter.WordViewHolder>(WordsComparator()) {
 

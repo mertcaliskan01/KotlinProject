@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorlightBackground"
     android:padding="@dimen/normal_padding"
-    tools:context=".ui.ui.home.HomeFragment">
+    tools:context=".ui.fragments.home.HomeFragment">
 
 <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_notes"

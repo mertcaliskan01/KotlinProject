@@ -4,9 +4,9 @@ import android.content.Context
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.mtcn.androidroomkotlin.dao.WordDao
+import com.mtcn.androidroomkotlin.models.dao.WordDao
 import com.mtcn.androidroomkotlin.database.WordRoomDatabase
-import com.mtcn.androidroomkotlin.model.Word
+import com.mtcn.androidroomkotlin.models.model.Word
 import junit.framework.Assert.assertEquals
 import junit.framework.Assert.assertTrue
 import kotlinx.coroutines.flow.first

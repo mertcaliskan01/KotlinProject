@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorlightBackground"
     android:padding="@dimen/normal_padding"
-    tools:context=".ui.ui.gallery.NotesFragment">
+    tools:context=".ui.fragments.gallery.NotesFragment">
 
 
     <TextView

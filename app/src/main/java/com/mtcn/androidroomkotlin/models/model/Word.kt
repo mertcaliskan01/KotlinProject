@@ -1,4 +1,4 @@
-package com.mtcn.androidroomkotlin.model
+package com.mtcn.androidroomkotlin.models.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

@@ -9,11 +9,11 @@
         android:layout_height="wrap_content"
         android:text="Choose Picture"
         android:id="@+id/ChoosePictureButton"/>
-    <com.mtcn.androidroomkotlin.ui.DrawableImageView
+    <com.mtcn.androidroomkotlin.components.DrawableImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/ChoosenImageView">
-    </com.mtcn.androidroomkotlin.ui.DrawableImageView>
+    </com.mtcn.androidroomkotlin.components.DrawableImageView>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

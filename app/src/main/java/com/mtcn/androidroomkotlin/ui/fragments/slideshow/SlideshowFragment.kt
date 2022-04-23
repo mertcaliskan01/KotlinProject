@@ -1,4 +1,4 @@
-package com.mtcn.androidroomkotlin.ui.ui.slideshow
+package com.mtcn.androidroomkotlin.ui.fragments.slideshow
 
 import android.os.Bundle
 import android.view.LayoutInflater

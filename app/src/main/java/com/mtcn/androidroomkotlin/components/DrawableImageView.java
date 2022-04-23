@@ -1,4 +1,4 @@
-package com.mtcn.androidroomkotlin.ui;
+package com.mtcn.androidroomkotlin.components;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -9,9 +9,8 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.ImageView;
 
-public class DrawableImageView extends ImageView implements View.OnTouchListener
+public class DrawableImageView extends androidx.appcompat.widget.AppCompatImageView implements View.OnTouchListener
 {
     float downx = 0;
     float downy = 0;

@@ -1,8 +1,8 @@
 package com.mtcn.androidroomkotlin.repository
 
 import androidx.annotation.WorkerThread
-import com.mtcn.androidroomkotlin.dao.WordDao
-import com.mtcn.androidroomkotlin.model.Word
+import com.mtcn.androidroomkotlin.models.dao.WordDao
+import com.mtcn.androidroomkotlin.models.model.Word
 import kotlinx.coroutines.flow.Flow
 
 // Declares the DAO as a private property in the constructor. Pass in the DAO

@@ -14,6 +14,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import com.mtcn.androidroomkotlin.R
+import com.mtcn.androidroomkotlin.components.DrawableImageView
 
 
 class DrawOnBitmapActivity : Activity(), View.OnClickListener {

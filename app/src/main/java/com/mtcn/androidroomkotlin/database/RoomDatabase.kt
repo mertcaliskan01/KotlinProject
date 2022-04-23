@@ -6,8 +6,8 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.mtcn.androidroomkotlin.dao.WordDao
-import com.mtcn.androidroomkotlin.model.Word
+import com.mtcn.androidroomkotlin.models.dao.WordDao
+import com.mtcn.androidroomkotlin.models.model.Word
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
