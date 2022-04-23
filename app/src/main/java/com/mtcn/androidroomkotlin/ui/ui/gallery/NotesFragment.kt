@@ -78,10 +78,20 @@ class NotesFragment : Fragment() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, intentData: Intent?) {
         super.onActivityResult(requestCode, resultCode, intentData)
         if (requestCode == newWordActivityRequestCode && resultCode == Activity.RESULT_OK) {
-            intentData?.getStringExtra(NewWordActivity.EXTRA_REPLY)?.let { reply ->
-                val word = Word( reply)
-                wordViewModel.insert(word)
+            wordViewModel.deleteAll()
+            var header = ""
+            var content = ""
+
+            intentData?.getStringExtra(NewWordActivity.HEADER)?.let { reply ->
+                header = reply
             }
+
+            intentData?.getStringExtra(NewWordActivity.CONTENT)?.let { reply ->
+                content = reply
+            }
+
+            wordViewModel.insert(Word(header,content))
+
         } else {
             Toast.makeText(
                 context,
