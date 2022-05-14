@@ -13,7 +13,7 @@
     android:id="@+id/header_title"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/title_shape"
+    android:background="@drawable/shape_background_right_bottom_oval"
     android:textAlignment="center"
     android:textColor="@color/white"
     android:textSize="25sp"
@@ -48,6 +48,6 @@
     android:layout_height="50dp"
     android:layout_margin="8dp"
     android:contentDescription="@string/add_word"
-    android:background="@drawable/button_shape"
+    android:background="@drawable/shape_oval_background_stroke"
     />
 </androidx.constraintlayout.widget.ConstraintLayout>

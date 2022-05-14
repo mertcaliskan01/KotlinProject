@@ -3,21 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.198" />
         <entry key="app/src/main/res/drawable/background.xml" value="0.1475" />
         <entry key="app/src/main/res/drawable/background_excample.xml" value="0.201" />
         <entry key="app/src/main/res/drawable/book.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/button_shape.xml" value="0.201" />
+        <entry key="app/src/main/res/drawable/home.xml" value="0.198" />
         <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.201" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1645" />
+        <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/ic_menu_gallery.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.198" />
         <entry key="app/src/main/res/drawable/rectangle_background.xml" value="0.1815" />
         <entry key="app/src/main/res/drawable/recyclerview_item.xml" value="0.1645" />
+        <entry key="app/src/main/res/drawable/shape_background_right_bottom_oval.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/shape_background_right_top_oval.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/shape_normal_background.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/shape_oval_and_stroke.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/shape_oval_background.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/shape_oval_background_stroke.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/shape_round_and_square.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/shape_test.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/shape_title_shape_background.xml" value="0.198" />
         <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.195" />
         <entry key="app/src/main/res/drawable/title_shape.xml" value="0.201" />
         <entry key="app/src/main/res/layout/activity_draw_on_bitmap.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2461944580078125" />
         <entry key="app/src/main/res/layout/activity_navigation.xml" value="0.3" />
         <entry key="app/src/main/res/layout/activity_navigation_drawer.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_new_word.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/activity_new_word.xml" value="0.1497370402018229" />
         <entry key="app/src/main/res/layout/app_bar_navigation.xml" value="0.375" />
         <entry key="app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.1724090576171875" />
         <entry key="app/src/main/res/layout/background.xml" value="0.2520833333333333" />
