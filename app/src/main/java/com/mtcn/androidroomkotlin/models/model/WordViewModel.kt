@@ -1,10 +1,10 @@
 package com.mtcn.androidroomkotlin.models.model
 
 import androidx.lifecycle.*
-import com.mtcn.androidroomkotlin.repository.WordRepository
+import com.mtcn.androidroomkotlin.repository.NotesRepository
 import kotlinx.coroutines.launch
 
-class WordViewModel(private val repository: WordRepository) : ViewModel() {
+class WordViewModel(private val repository: NotesRepository) : ViewModel() {
 
     // Using LiveData and caching what allWords returns has several benefits:
     // - We can put an observer on the data (instead of polling for changes) and only update the
@@ -25,7 +25,7 @@ class WordViewModel(private val repository: WordRepository) : ViewModel() {
     }
 }
 
-class WordViewModelFactory(private val repository: WordRepository) : ViewModelProvider.Factory {
+class WordViewModelFactory(private val repository: NotesRepository) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(WordViewModel::class.java)) {
             @Suppress("UNCHECKED_CAST")

@@ -13,12 +13,12 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.mtcn.androidroomkotlin.R
-import com.mtcn.androidroomkotlin.WordsApplication
 import com.mtcn.androidroomkotlin.models.adapters.WordListAdapter
 import com.mtcn.androidroomkotlin.databinding.FragmentNotesBinding
 import com.mtcn.androidroomkotlin.models.model.Word
 import com.mtcn.androidroomkotlin.models.model.WordViewModel
 import com.mtcn.androidroomkotlin.models.model.WordViewModelFactory
+import com.mtcn.androidroomkotlin.repository.NotesApplication
 import com.mtcn.androidroomkotlin.ui.NewWordActivity
 import com.mtcn.androidroomkotlin.ui.fragments.home.HomeViewModel
 
@@ -31,7 +31,7 @@ class NotesFragment : Fragment() {
     private val binding get() = _binding!!
 
     private val wordViewModel: WordViewModel by viewModels {
-        WordViewModelFactory((context?.applicationContext as WordsApplication).repository)
+        WordViewModelFactory((context?.applicationContext as NotesApplication).repository)
     }
 
     override fun onCreateView(
