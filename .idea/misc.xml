@@ -20,6 +20,8 @@
         <entry key="app/src/main/res/drawable/shape_background_right_top_oval.xml" value="0.198" />
         <entry key="app/src/main/res/drawable/shape_normal_background.xml" value="0.198" />
         <entry key="app/src/main/res/drawable/shape_oval_and_stroke.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/shape_oval_and_stroke_transparent.xml" value="0.166" />
+        <entry key="app/src/main/res/drawable/shape_oval_and_stroke_white.xml" value="0.1805" />
         <entry key="app/src/main/res/drawable/shape_oval_background.xml" value="0.198" />
         <entry key="app/src/main/res/drawable/shape_oval_background_stroke.xml" value="0.198" />
         <entry key="app/src/main/res/drawable/shape_round_and_square.xml" value="0.198" />
@@ -31,7 +33,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2461944580078125" />
         <entry key="app/src/main/res/layout/activity_navigation.xml" value="0.2461944580078125" />
         <entry key="app/src/main/res/layout/activity_navigation_drawer.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_new_word.xml" value="0.22944742838541665" />
+        <entry key="app/src/main/res/layout/activity_new_word.xml" value="0.21386718750000003" />
         <entry key="app/src/main/res/layout/app_bar_navigation.xml" value="0.375" />
         <entry key="app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.1724090576171875" />
         <entry key="app/src/main/res/layout/background.xml" value="0.2520833333333333" />
@@ -58,7 +60,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.2461944580078125" />
+        <option name="scale" value="0.2520833333333333" />
       </ProjectState>
     </option>
   </component>
